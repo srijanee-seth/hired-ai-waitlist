@@ -1,21 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+HiredAI: Rapid MVP Waitlist
+A high-performance, cloud-native landing page built to validate an AI-driven recruitment startup. This project focuses on developer velocity and serverless architecture, moving from concept to functional data collection in under 4 hours.
 
-## Getting Started
+🛠️ Tech Stack
+Frontend: Next.js 14 (App Router, TypeScript)
 
-First, run the development server:
+Styling: Tailwind CSS & Shadcn UI
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Backend/Database: Supabase (PostgreSQL + Row Level Security)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Infrastructure: GitHub Codespaces (Cloud Development Environment)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deployment: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧠 Engineering Challenges & Solutions
+1. Hardware-Agnostic Development
+Problem: Local disk space constraints interrupted the standard node_modules installation.
+Solution: Migrated the entire development lifecycle to GitHub Codespaces. This allowed for a high-performance, containerized environment that bypasses local hardware limitations, demonstrating a "Cloud-First" engineering mindset.
+
+2. Secure Data Ingestion (RLS)
+Problem: Initial database inserts failed due to PostgreSQL Row Level Security (RLS) policies.
+Solution: Architected a specific RLS policy to allow anonymous public INSERT operations while maintaining strictly restricted SELECT/UPDATE permissions, ensuring user privacy while enabling seamless sign-ups.
+
+3. AI-Assisted Component Architecture
+Problem: Rapidly building 20+ UI components (Buttons, Inputs, Modals) from scratch is time-inefficient for an MVP.
+Solution: Utilized v0.dev and Shadcn CLI to generate modular, accessible components, focusing my engineering efforts on backend integration and data flow rather than rote CSS writing.
+
+
+
+
+
+👨‍🎓 About the Developer
+Srijanee Seth
+Final-year ECE Student at Netaji Subhash Engineering College.
+Interested in Signal Processing, Machine Learning, and Cloud Architecture. Exploring the intersection of deep technical analysis and modern web scale.
+
