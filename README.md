@@ -10,7 +10,7 @@ Backend/Database: Supabase (PostgreSQL + Row Level Security)
 
 Infrastructure: GitHub Codespaces (Cloud Development Environment)
 
-Deployment: Vercel
+Deployment: Vercel(LINK: https://vercel.com/srijanee-seths-projects/hired-ai-waitlist-zf68)
 
 🧠 Engineering Challenges & Solutions
 1. Hardware-Agnostic Development
